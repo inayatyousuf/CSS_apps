@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-image: url('./order-summary-component-main/images/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: rgb(192, 210, 221);
+
+}
+
+main {
+   
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color:white;
+}
+.container {
+    width: 28.15rem;
+    
+}
+
+.summary {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 1rem 0;
+    padding: 1rem 1rem;
+
+}
+.summary p {
+    margin-top: 1rem;
+    padding: 0 3rem;
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 16px;
+     text-align: center;
+     font-weight: 100;
+}
+
+.plan-section{
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    padding: 1rem 2rem ;
+    width:19rem;
+    margin-left:auto ;
+    margin-right: auto;
+    border-radius: 1rem;
+}
+.plan-section img{
+    margin-right: 1rem;
+    padding-right: 1rem;
+
+}
+.plan-section div h5{
+  font-weight: 700;
+}
+.plan-section p{
+    font: lighter;
+    color: rgb(107, 89, 89);
+}
+
+.plan-section a {
+    padding-left: 6rem;
+}
+.plan-section a:hover{
+    text-decoration: none;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
+.buttons .payment{
+    background-color: hsl(245, 75%, 52%);
+    padding: 0.8rem 5rem;
+    color: white;
+    border-radius: 0.8rem;
+    margin-bottom: 2rem;
+    cursor: pointer;
+}
+.buttons .payment:hover{
+    background-color: rgb(51, 104, 202);
+}
+
+.buttons .cancel-order {
+    font-weight: lighter;
+}
+.buttons .cancel-order:hover {
+    font-weight: bold;
+}
